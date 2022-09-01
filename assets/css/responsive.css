@@ -1,0 +1,503 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+/*=========== Home Page Start  ============== */
+.menu-area > div ul li a {
+    font-size: 20px;
+}
+.hero-wrp h1{
+    font-size: 50px;
+}
+.menu-area > div ul li ul:before{
+    left: 14%;
+}
+
+.menu-area > div ul li:last-child ul:before {
+    left: 10%;
+}
+/*=========== Home Page End && Page Start ============== */
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+/*=========== Home Page Start  ============== */
+.menu-area > div ul li ul:before{
+    left: 14%;
+}
+
+.menu-area > div ul li:last-child ul:before {
+    left: 10%;
+}
+.menu-area > div ul li a {
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.menu-area > div ul button.themeBtn {
+    font-size: 18px;
+}
+.hero-wrp a.themeBtn {
+    margin-bottom: 20px;
+}
+
+.hero-wrp a.themeBtn.ybtn {
+    margin-left: 0;
+}
+.hero-wrp h1{
+    font-size: 42px;
+}
+.cta-wrp h4 {
+    font-size: 35px;
+}
+.loc-text h4{
+    font-size: 40px;
+}
+.widget-blk h4 {
+    font-size: 18px;
+}
+
+.widget-blk > a {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.bottom_menu a {
+    font-size: 18px;
+}
+
+.cnt_blk h5 {
+    font-size: 26px;
+}
+
+.cnt_blk p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.advantage-area .section_title {
+    margin-bottom: 50px;
+}
+
+/*=========== Home Page End && techonology Page Start ============== */
+.AI-text p {
+    font-size: 24px;
+}
+/*=========== techonology Page End && Page Start ============== */
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+/*=========== Home Page Start  ============== */
+.header-area{
+    padding: 20px 0;
+}
+.menu-area > div ul li a {
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.menu-area > div ul button.themeBtn {
+    font-size: 18px;
+}
+.hero-wrp a.themeBtn {padding: 20px 30px;}
+
+.hero-wrp a.themeBtn.ybtn {
+}
+
+.cta-wrp h4 {
+    font-size: 35px;
+}
+
+.widget-blk h4 {
+    font-size: 18px;
+}
+
+.widget-blk > a {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.bottom_menu a {
+    font-size: 18px;
+}
+
+.cnt_blk h5 {
+    font-size: 28px;
+}
+
+.cnt_blk p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.advantage-area .section_title {
+    margin-bottom: 50px;
+}
+.hero-wrp h1 {
+    font-size: 42px;
+}
+
+.cnt_blk {
+    max-width: 620px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.advantage-area.avt-slt .cnt_blk {
+    max-width: 625px;
+}
+
+.cta-area {
+    padding: 100px 0;
+}
+
+a.themeBtn {
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.widgets {
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.widget-blk {
+    flex: 0 0 32%;
+}
+/*=========== Home Page End && Solution Page Start ============== */
+.loc-text {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.loc-text h4 {
+    font-size: 32px;
+}
+
+.loc-text p {
+    font-size: 26px;
+}
+
+section.location-area .row:nth-child(1) {flex-direction: column-reverse;margin-bottom: 60px;}
+
+.loc-img {
+    margin-bottom: 50px;
+}
+.loc-text {
+    text-align: left !important;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.loc-text h4 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.loc-text p {
+    font-size: 26px;
+}
+
+section.location-area .row:nth-child(1) {margin-bottom: 60px;}
+
+.loc-img {
+    margin-bottom: 50px;
+}
+
+.cvg-text {
+    margin-top: 115px;
+}
+
+section.location-area {
+    padding-top: 50px;
+}
+/*=========== Solution Page End && Page Start ============== */
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+/*=========== Home Page Start ============== */
+
+.header-area{
+    padding: 18px 10px;
+}
+.hero-wrp h1 {
+    font-size: 33px;
+    line-height: 1.3;
+}
+
+body {
+    font-size: 17px;
+}
+
+.hero-wrp p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a.themeBtn {
+    font-size: 16px;
+    padding: 14px 28px;
+}
+
+.hero-wrp a.themeBtn.ybtn {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.portfolio-wrp h5 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    padding-bottom: 0;
+}
+.portfolio-wrp ul {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.portfolio-wrp ul li {
+    margin: auto;
+    flex: 0 0 50%;
+    margin-bottom: 25px;
+}
+
+.section_title h4 {
+    font-size: 30px;
+}
+
+.advantage-area {
+    padding: 50px 0 30px;
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+.cnt_blk h5 {
+    font-size: 24px;
+}
+
+.cnt_blk p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.regulation-area {
+    padding: 60px 0;
+}
+
+div#v-pills-tabContent {
+    display: none;
+}
+
+.regulation-area button h5 {
+    font-size: 22px;
+}
+
+.regulation-area button {
+    margin-bottom: 5px;
+}
+
+.regulation-area button p {
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+
+.regulation-area button a {
+    font-size: 16px;
+}
+.cta-wrp h4 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.cta-area {
+    padding: 70px 0;
+}
+
+.widget-blk h4 {
+    font-size: 20px;
+}
+
+.widget-blk .social {
+    justify-content: center;
+}
+
+.widget-blk > a {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.bottom_menu a {
+    font-size: 18px;
+    margin: 5px auto;
+}
+
+.bottom_menu {
+    text-align: center;
+    display: flex;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.bottom_menu::before {
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    background: #479c5f;
+    transform: translateX(-50%);
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+.widget-blk {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+.widgets {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+/*=========== Home Page End && Page Start ============== */
+.cvg-text {
+    margin-top: 110px;
+}
+
+.cvg-text p {
+    line-height: 1.7;
+}
+
+.loc-text h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.45;
+}
+
+.loc-text p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+section.location-area .row:nth-child(2) {
+    flex-direction: column-reverse;
+}
+
+section.location-area .row:nth-child(2) .loc-text.section_title {
+    text-align: left;
+}
+
+section.location-area .row:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+.cta-wrp.cta-slt-wrp h4 {
+    line-height: 1.4;
+    font-size: 28px;
+}
+
+section.location-area {
+    padding-top: 50px;
+}
+/*=========== Home Page End &&  Page Start ============== */
+.AI-text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.AI-text {
+    padding: 30px 0;
+}
+/*=========== Home Page End && About Page Start ============== */
+.hero-area {
+    padding-top: 80px;
+}
+
+.about-cont h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-cont h5 {
+    font-size: 24px;
+}
+
+.about-cont p {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.about-s-right p {
+    margin-top: 55px;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.about-company-title h3 {
+    font-size: 32px;
+}
+
+.about-company-title span {
+    font-size: 28px;
+}
+
+.about-company-title {
+    margin-bottom: 50px;
+}
+
+.ac-blk {
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ac-blk span {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.ac-blk p {
+    font-size: 22px;
+}
+
+.cta-wrp.cta-slt-wrp h2 {
+    font-size: 36px;
+}
+section.about-story .row {
+    flex-direction: column-reverse;
+}
+
+.about-cont {
+    text-align: center;
+}
+/*=========== About Page End && Page Start ============== */
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
