@@ -236,13 +236,13 @@ img{
   width: 100%;
   background: #479c5f;
   z-index: 99;
-  top: 90px;
+  top: 75px;
   left: -100%;
   transition: .3s;
   margin-left: -400px;
   text-align: center;
   overflow-y: auto;
-  height: 90%;
+  height: 95%;
   padding-bottom: 35px;
 }
 .siteBar{
