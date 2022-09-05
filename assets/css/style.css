@@ -97,6 +97,7 @@ img{
   width: 100%;
   z-index: 99;
   background: #fff;
+  position: relative;
 }
 
 
@@ -200,14 +201,18 @@ img{
 
 /* humbergar */
 .bar a {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   float: right;
   position: relative;
   padding: 12px;
   border: 2px solid #479c5f;
   border-radius: 7px;
-  padding-top: 8px;
+  padding-top: 5px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
 } 
 .bar a span {
   width: 100%;
@@ -530,6 +535,10 @@ a.themeBtn.ybtn:hover {
 .regulation-area {
   padding: 100px 0;
 }
+
+.regMdImg {
+    display: none;
+}
 .regulation-area button {
   text-align: left;
   outline: none;
@@ -714,7 +723,7 @@ footer {
 }
 
 .advantage-area.avt-slt .cnt_blk h5 {
-  color: #27A645;
+  color: #595959;
 }
 
 .advantage-area.avt-slt .cnt_blk {

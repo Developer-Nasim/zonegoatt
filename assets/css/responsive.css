@@ -623,10 +623,30 @@ section.about-story .row {
     .container {
         max-width: 90%;
     }
+
+.header-area .container {
+    max-width: 100%;
+}
 /*=========== Home Page Start ============== */
 
 .header-area{
     padding: 18px 10px;
+    position: relative;
+}
+
+.header-area .menu-logo {
+    justify-content: center;
+}
+
+.menu-logo a.logo {
+    max-width: 130px;
+}
+
+.menu-logo a.logo img {
+    object-fit: cover;
+}
+.hero-home {
+    text-align: center;
 }
 .hero-wrp h1 {
     font-size: 26px;
@@ -640,6 +660,7 @@ body {
 .hero-wrp p {
     font-size: 15px;
     line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 a.themeBtn {
@@ -650,6 +671,10 @@ a.themeBtn {
 .hero-wrp a.themeBtn.ybtn {
     margin-left: 0;
     margin-top: 10px;
+}
+
+.hero-home a.themeBtn {
+    width: 225px;
 }
 
 .portfolio-wrp h5 {
@@ -670,6 +695,7 @@ a.themeBtn {
     margin: auto;
     flex: 0 0 50%;
     margin-bottom: 25px;
+    max-width: 60px;
 }
 
 .section_title h4 {
@@ -700,6 +726,12 @@ a.themeBtn {
     padding: 50px 0;
 }
 
+.regMdImg {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
 div#v-pills-tabContent {
     display: none;
 }
@@ -712,6 +744,7 @@ div#v-pills-tabContent {
 
 .regulation-area button {
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .regulation-area button p {
@@ -803,11 +836,12 @@ footer {
 }
 
 .cvg-text h4 {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .cvg-text p {
-    font-size: 15px;
+    font-size: 13px;
+    margin-bottom: 0;
 }
 
 .cvg-text p {
@@ -844,10 +878,11 @@ section.location-area .row:nth-child(1) {
 
 section.location-area {
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 /*=========== Home Page End &&  Page Start ============== */
 .AI-text p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
