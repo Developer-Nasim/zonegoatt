@@ -666,6 +666,7 @@ body {
 a.themeBtn {
     font-size: 15px;
     padding: 10px 25px;
+    line-height: 2.3;
 }
 
 .hero-wrp a.themeBtn.ybtn {
@@ -880,10 +881,14 @@ section.location-area {
     padding-top: 50px;
     margin-bottom: 50px;
 }
+.regulation-area button{
+    opacity: 1 !important;
+}
 /*=========== Home Page End &&  Page Start ============== */
 .AI-text p {
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
 }
 
 .AI-text {
@@ -904,8 +909,10 @@ section.location-area {
 }
 
 .about-cont p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4;
+    max-width: 230px;
+    margin: auto;
 }
 
 .about-s-right p {
@@ -958,6 +965,9 @@ section.about-story .row {
 }
 section.about-company{
     margin-bottom: 35px;
+}
+.hero-area.hero-about .hero-img {
+    margin-top: -40px;
 }
 /*=========== About Page End && Page Start ============== */
  
