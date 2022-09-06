@@ -371,7 +371,10 @@ img{
 
 
 
-
+.hero_btn_grp {
+    display: flex;
+    width: max-content;
+}
 
 
 .hero-area {
@@ -415,6 +418,8 @@ img{
   outline: none;
   color: #fff;
   transition: all .3s ease-in-out;
+  line-height: 1.2;
+  font-size: 26px;
 }
 
 a.themeBtn:hover {
@@ -435,7 +440,7 @@ a.themeBtn.ybtn:hover {
 }
 .menu-area > div ul button.themeBtn {
   font-size: 22px;
-  line-height: 27px;
+  line-height: 26px;
   padding: 11px 22px;
   margin-left: 30px;
 }
@@ -720,6 +725,7 @@ footer {
 /* Hero section END && advantage-area-section STARTED */
 .advantage-area.avt-slt .section_title h4 {
   color: #27A645;
+  font-weight: 800;
 }
 
 .advantage-area.avt-slt .cnt_blk h5 {
@@ -871,7 +877,7 @@ section.about-company .row:last-child {
 }
 
 .cta-wrp.cta-slt-wrp h4 {
-  font-size: 30px;
+  font-size: 42px;
   font-weight: 600;
 }
 /*======================== about Page END =========================*/

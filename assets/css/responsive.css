@@ -90,7 +90,7 @@
 }
 .menu-area > div ul li a {
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 .hero-wrp h1{
     font-size: 42px;
@@ -126,7 +126,7 @@
 }
 .menu-area > div ul button.themeBtn {
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 /*=========== Home Page End && Solution Page Start ============== */
 .cvg-text p {
@@ -229,8 +229,8 @@ section.about-company .row:last-child {
 }
 .hero-wrp a.themeBtn {
     margin-bottom: 20px;
-    padding: 20px 28px 20px;
-    font-size: 16px;
+    padding: 22px 26px 22px;
+    font-size: 20px;
 }
 
 .hero-wrp a.themeBtn.ybtn {
@@ -316,6 +316,7 @@ section.about-company .row:last-child {
     width: 400px;
     padding: 10px 25px;
 }
+.cta-wrp.cta-slt-wrp a.themeBtn.ybtn {font-size: 22px;padding: 23px 28px 24px;}
 /*=========== Home Page End && soluton Page Start ============== */
 .cvg-text p {
     font-size: 18px;
@@ -393,7 +394,7 @@ section.about-company .row:last-child {
 .menu-area > div ul button.themeBtn {
     font-size: 18px;
 }
-.hero-wrp a.themeBtn {padding: 14px 27px;}
+.hero-wrp a.themeBtn {padding: 15px 27px;}
 
 .hero-wrp a.themeBtn.ybtn {margin-left: 15px;}
 
@@ -453,8 +454,8 @@ section.about-company .row:last-child {
 }
 
 a.themeBtn {
-    padding: 20px 30px;
-    font-size: 16px;
+    padding: 20px 26px !important;
+    font-size: 18px;
 }
 .widgets {
     flex-wrap: wrap;
@@ -648,6 +649,8 @@ section.about-story .row {
 .hero-home {
     text-align: center;
 }
+
+.hero_btn_grp {width: unset;display: block;}
 .hero-wrp h1 {
     font-size: 26px;
     line-height: 1.3;
@@ -664,18 +667,18 @@ body {
 }
 
 a.themeBtn {
-    font-size: 15px;
+    font-size: 17px;
     padding: 10px 25px;
-    line-height: 2.3;
+    line-height: 2;
 }
 
 .hero-wrp a.themeBtn.ybtn {
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .hero-home a.themeBtn {
-    width: 225px;
+    width: 240px;
 }
 
 .portfolio-wrp h5 {
@@ -700,7 +703,7 @@ a.themeBtn {
 }
 
 .section_title h4 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -897,6 +900,7 @@ section.location-area {
 /*=========== Home Page End && About Page Start ============== */
 .hero-area {
     padding-top: 65px;
+    padding-bottom: 50px;
 }
 
 .about-cont h2 {
