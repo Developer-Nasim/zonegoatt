@@ -199,7 +199,36 @@
 section.about-company .row:last-child {
     max-width: 899px;
 }
-/*=========== About Page End && Page Start ============== */
+/*=========== About Page End && SignUp Page Start ============== */
+.watch_list_cont ul li p {
+    font-size: 18px;
+}
+
+.signUp_form {
+}
+
+.video_fram a {
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+}
+
+.signUp_form input {
+    margin-top: 20px;
+}
+
+.input_select .nice-select {
+    margin-top: 20px;
+}
+
+.signUp_form h6 {
+    margin-top: 40px;
+}
+
+.signUp_form h5 {
+    font-size: 19px;
+}
+/*=========== SignUp Page End &&  Page Start ============== */
 
 }
 
@@ -372,7 +401,44 @@ section.about-company .row:last-child {
 .cta-wrp.cta-slt-wrp h2 {
     font-size: 44px;
 }
-/*=========== About Page End && Page Start ============== */
+/*=========== About Page End && SignUp Page Start ============== */
+.video_fram a {
+    width: 70px;
+    height: 70px;
+    padding: 23px;
+}
+.input_wrp {
+    flex-direction: column;
+}
+
+.input_wrp input {
+    width: 100%;
+}
+
+.signUp_form input {
+    margin-top: 20px;
+}
+
+.input_select .nice-select {
+    margin-top: 20px;
+}
+
+.signUp_form h6 {
+    margin-top: 30px;
+}
+
+.signUp_form h5 {
+    font-size: 18px;
+}
+
+.watch_list_cont ul li p {
+    font-size: 18px;
+}
+
+.wlc_blk:first-child {
+    margin-right: 40px;
+}
+/*=========== SignUp Page End && Page Start ============== */
 
 }
 
@@ -614,7 +680,23 @@ section.about-story .row {
 .ac-blk p {
     font-size: 18px;
 }
-/*=========== About Page End && Page Start ============== */
+/*=========== About Page End && SignUp Page Start ============== */
+.signUp_form {
+    margin-top: 50px;
+    margin-bottom: -840px;
+}
+
+.list_icon {
+    margin-right: 15px;
+}
+
+section.watch_list {
+    margin-top: 820px;
+}
+.header-area.header-signup {
+    padding: 20px 0;
+}
+/*=========== SignUp Page End && Page Start ============== */
 
 }
 
@@ -973,7 +1055,104 @@ section.about-company{
 .hero-area.hero-about .hero-img {
     margin-top: -40px;
 }
-/*=========== About Page End && Page Start ============== */
+/*=========== About Page End && SignUp Page Start ============== */
+.signUp_form {
+    margin-top: 30px;
+    margin-bottom: -840px;
+    padding: 25px;
+}
+
+.list_icon {
+    margin: 0px;
+    transform: scale(.7) translateY(-10px);
+}
+
+section.watch_list {
+    margin-top: 765px;
+}
+.video_fram a {
+    transform: translate(-50%, -50%) scale(.5);
+}
+
+.input_wrp input {
+    width: 100%;
+}
+
+.input_wrp {
+    flex-direction: column;
+}
+
+.signUp_form h5 {
+    font-size: 18px;
+}
+
+.signUp_form input {
+    padding: 0 10px;
+    margin-top: 15px;
+    line-height: 35px;
+}
+
+.input_select .nice-select {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.signUp_form input::placeholder {
+    font-size: 15px;
+}
+
+.input_select .nice-select span {
+    font-size: 15px;
+}
+.watch_list_cont ul li h5 {
+    font-size: 18px;
+}
+
+.watch_list_cont ul li p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.watch_list_cont ul li img {
+    transform: scale(.7) translateY(7px);
+}
+
+.signUp_form h6 {
+    margin-top: 30px;
+}
+
+.wl_circle {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.wlc_blk:first-child {
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.wlc_blk span {
+    font-size: 40px;
+}
+
+.wlc_blk p {
+    font-size: 14px;
+}
+
+.wlc_blk {
+    width: 160px;
+    height: 160px;
+}
+
+.Playlist_cont {
+    margin-top: 40px;
+}
+.header-area.header-signup {
+    padding: 20px;
+}
+/*=========== SignUp Page End && Page Start ============== */
  
 }
  
